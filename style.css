@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,132,0,1) 10%, rgba(255,243,0,1) 20%, rgba(142,255,0,1) 30%, rgba(0,255,141,1) 40%, rgba(0,255,243,1) 50%, rgba(0,69,255,1) 60%, rgba(179,0,255,1) 70%, rgba(255,0,237,1) 80%, rgba(255,0,181,1) 90%, rgba(252,69,69,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input{
+    background: #00000099;
+    outline: none;
+    padding: 5px;
+    color: aliceblue;
+}
+button{
+    background: #00000099;
+    color: aliceblue;
+    padding: 5px;
+    position: relative;
+}
+img{
+    display: none;  
+}
+.car{
+    height: 200px;
+    width: auto;
+}
+.amogus{
+    position: fixed;
+    width: auto;
+    height: 100vh;
+    z-index: 10000;
+}
